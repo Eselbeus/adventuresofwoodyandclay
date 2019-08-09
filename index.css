@@ -1,3 +1,8 @@
+body {
+  color: #444444;
+}
+
 h1 {
-  border-top: 4px solid #77EE77;
+  /* border-top: 4px solid #77EE77; */
+  color: green;
 }
