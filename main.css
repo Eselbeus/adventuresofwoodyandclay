@@ -12,30 +12,32 @@ h1 {
   font-size: 2rem;
 }
 
-h2 {
-  color: #111111;
-}
-
-nav {
+.nav {
   background-color: green;
   box-shadow: 1px 1px 1px #004400;
 }
-nav a {
+.nav .nav__link {
+  font-family: "Trebuchet MS";
   font-size: 2rem;
   text-decoration: none;
-  color: #EEEEEE;
+  color: #EEE;
   padding: 2rem;
 }
+.nav .nav__link:hover {
+  color: #EEEEEE66;
+}
 
-.frame {
+.component {
   background-color: #DDD;
   padding: 1rem;
   margin: 1rem;
   border: 1px solid #CCC;
   box-shadow: 1px 1px 1px #AABBAA;
 }
-
-.story {
+.component .component__header {
+  color: #111;
+}
+.component .component__story {
   color: green;
   font-size: 1rem;
 }

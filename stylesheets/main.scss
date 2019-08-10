@@ -1,50 +1,58 @@
 $greenFontColor: green;
 $greenBorder: 4px solid #77EE77;
 $darkGreen: #004400;
-$offwhiteBackground: #EEE;
+$offwhite: #EEE;
 $sectionBackground: #DDD;
 $lightGrayDividers: #CCC;
 $mediumGrayBoxShadow: #AABBAA;
 $redBrownGradient: #EE9955;
+$headerColor: #111;
 
 body {
   color: $greenFontColor;
-  background-color: $offwhiteBackground;
+  background-color: $offwhite;
 }
 
 h1 {
   border-top: $greenBorder;
   border-bottom: $greenBorder;
   color: $greenFontColor;
-  background-image: linear-gradient(to right, $offwhiteBackground, $sectionBackground, $redBrownGradient);
+  background-image: linear-gradient(to right, $offwhite, $sectionBackground, $redBrownGradient);
   padding: 1rem;
   font-size: 2rem;
 }
 
-h2 {
-  color: #111111;
-}
-
-nav {
+.nav {
   background-color: $greenFontColor;
   box-shadow: 1px 1px 1px $darkGreen;
-  a {
+  
+  .nav__link {
+    font-family: "Trebuchet MS";
     font-size: 2rem;
     text-decoration: none;
-    color: #EEEEEE;
+    color: $offwhite;
     padding: 2rem;
+  }
+
+  .nav__link:hover {
+    color: #EEEEEE66;
   }
 }
 
-.frame {
+.component {
   background-color: $sectionBackground;
   padding: 1rem;
   margin: 1rem;
   border: 1px solid $lightGrayDividers;
   box-shadow: 1px 1px 1px $mediumGrayBoxShadow;
-}
 
-.story {
-  color: $greenFontColor;
-  font-size: 1rem;
+  .component__header {
+    color: $headerColor;
+  }
+
+  .component__story {
+    color: $greenFontColor;
+    font-size: 1rem;
+  }
+
 }
