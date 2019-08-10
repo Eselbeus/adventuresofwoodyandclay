@@ -1,0 +1,11 @@
+body {
+  color: #444444;
+}
+
+h1 {
+  border-top: 4px solid #77EE77;
+  border-bottom: 4px solid #77EE77;
+  color: green;
+  padding: 10px;
+  font-size: 1.6rem;
+}

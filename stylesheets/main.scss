@@ -1,0 +1,14 @@
+$greenFontColor: #444444;
+$greenBorder: 4px solid #77EE77;
+
+body {
+  color: $greenFontColor;
+}
+
+h1 {
+  border-top: $greenBorder;
+  border-bottom: $greenBorder;
+  color: green;
+  padding: 10px;
+  font-size: 1.6rem;
+}
