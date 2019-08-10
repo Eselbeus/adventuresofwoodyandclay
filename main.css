@@ -1,13 +1,14 @@
 body {
   color: green;
-  background-color: #EEEEEE;
+  background-color: #EEE;
 }
 
 h1 {
   border-top: 4px solid #77EE77;
   border-bottom: 4px solid #77EE77;
   color: green;
-  padding: 10px;
+  background-image: linear-gradient(to right, #EEE, #DDD, #EE9955);
+  padding: 1rem;
   font-size: 2rem;
 }
 
@@ -17,9 +18,6 @@ h2 {
 
 nav {
   background-color: green;
-  color: #111111;
-  text-align: left;
-  align-items: left;
   box-shadow: 1px 1px 1px #004400;
 }
 nav a {
@@ -27,6 +25,14 @@ nav a {
   text-decoration: none;
   color: #EEEEEE;
   padding: 2rem;
+}
+
+.frame {
+  background-color: #DDD;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #CCC;
+  box-shadow: 1px 1px 1px #AABBAA;
 }
 
 .story {

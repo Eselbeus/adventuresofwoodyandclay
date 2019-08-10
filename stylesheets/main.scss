@@ -1,17 +1,23 @@
 $greenFontColor: green;
 $greenBorder: 4px solid #77EE77;
 $darkGreen: #004400;
+$offwhiteBackground: #EEE;
+$sectionBackground: #DDD;
+$lightGrayDividers: #CCC;
+$mediumGrayBoxShadow: #AABBAA;
+$redBrownGradient: #EE9955;
 
 body {
   color: $greenFontColor;
-  background-color: #EEEEEE;
+  background-color: $offwhiteBackground;
 }
 
 h1 {
   border-top: $greenBorder;
   border-bottom: $greenBorder;
   color: $greenFontColor;
-  padding: 10px;
+  background-image: linear-gradient(to right, $offwhiteBackground, $sectionBackground, $redBrownGradient);
+  padding: 1rem;
   font-size: 2rem;
 }
 
@@ -21,17 +27,21 @@ h2 {
 
 nav {
   background-color: $greenFontColor;
-  color: #111111;
-  text-align: left;
-  align-items: left;
   box-shadow: 1px 1px 1px $darkGreen;
-
   a {
     font-size: 2rem;
     text-decoration: none;
     color: #EEEEEE;
     padding: 2rem;
   }
+}
+
+.frame {
+  background-color: $sectionBackground;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid $lightGrayDividers;
+  box-shadow: 1px 1px 1px $mediumGrayBoxShadow;
 }
 
 .story {
