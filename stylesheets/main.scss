@@ -1,14 +1,40 @@
-$greenFontColor: #444444;
+$greenFontColor: green;
 $greenBorder: 4px solid #77EE77;
+$darkGreen: #004400;
 
 body {
   color: $greenFontColor;
+  background-color: #EEEEEE;
 }
 
 h1 {
   border-top: $greenBorder;
   border-bottom: $greenBorder;
-  color: green;
+  color: $greenFontColor;
   padding: 10px;
-  font-size: 1.6rem;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #111111;
+}
+
+nav {
+  background-color: $greenFontColor;
+  color: #111111;
+  text-align: left;
+  align-items: left;
+  box-shadow: 1px 1px 1px $darkGreen;
+
+  a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #EEEEEE;
+    padding: 2rem;
+  }
+}
+
+.story {
+  color: $greenFontColor;
+  font-size: 1rem;
 }

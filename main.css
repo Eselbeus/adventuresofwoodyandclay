@@ -1,5 +1,6 @@
 body {
-  color: #444444;
+  color: green;
+  background-color: #EEEEEE;
 }
 
 h1 {
@@ -7,5 +8,28 @@ h1 {
   border-bottom: 4px solid #77EE77;
   color: green;
   padding: 10px;
-  font-size: 1.6rem;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #111111;
+}
+
+nav {
+  background-color: green;
+  color: #111111;
+  text-align: left;
+  align-items: left;
+  box-shadow: 1px 1px 1px #004400;
+}
+nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #EEEEEE;
+  padding: 2rem;
+}
+
+.story {
+  color: green;
+  font-size: 1rem;
 }
