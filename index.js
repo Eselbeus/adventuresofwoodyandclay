@@ -10,10 +10,10 @@ window.addEventListener("DOMContentLoaded", e => {
   let episodeNext = parseInt(episodeNo)
 
   img.addEventListener('click', e => {
-    if (episodeNext !== 20){
+    if (episodeNext !== 50){
       episodeNext++;
     }
-    else if (episodeNext === 20){
+    else if (episodeNext === 50){
       episodeNext = 1;
     }
     img.src = `./images/Catan_World_ep${episodeNext}.jpg`;
