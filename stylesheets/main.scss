@@ -91,3 +91,13 @@ h1 {
   cursor: pointer;
   padding: 0.25rem;
 }
+
+.contact {
+  list-style-type: none;
+}
+
+.contact__items {
+  padding: 0.25rem;
+}
+
+// dart compile-sass.dart stylesheets/main.scss main.css
