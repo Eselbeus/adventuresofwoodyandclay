@@ -44,3 +44,35 @@ h1 {
 .component .character__name {
   color: black;
 }
+
+.comic {
+  text-align: center;
+  width: 617px;
+}
+
+#image__comic {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.component__button--previous {
+  cursor: pointer;
+}
+
+.component__button--next {
+  cursor: pointer;
+}
+
+.list__container {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.25rem;
+}
