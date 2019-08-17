@@ -82,11 +82,11 @@ h1 {
   text-align: center;
 }
 
-ul {
+.list__container__links {
   list-style-type: none;
 }
 
-li {
+.list__container__links--all {
   text-decoration: underline;
   cursor: pointer;
   padding: 0.25rem;
